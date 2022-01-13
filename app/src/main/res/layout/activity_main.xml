@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="yan"
+        android:shadowColor="#FF9800"
+        android:text="Sport"
+        android:textColor="#FDFCFC"
+        android:textColorHighlight="#C60000"
+        android:textColorHint="#CC0000"
+        android:textColorLink="#C30000"
+        app:backgroundTint="#0A4CF4"
+        app:iconTint="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#A81111"
+        app:strokeColor="#BA2B2B" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="85dp"
+
+        android:layout_marginEnd="59dp"
+        android:onClick="yan1"
+        android:text="Health"
+        app:backgroundTint="#13C82B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#1ABCBC"
+        android:onClick="yan2"
+        android:text="Friendship"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="59dp"
+        android:backgroundTint="#EA1010"
+        android:onClick="yan3"
+        android:text="Love"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#4F5519"
+        android:onClick="yan4"
+        android:text="Self-Love"
+        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="59dp"
+        android:backgroundTint="#A62C0D"
+        android:onClick="yan5"
+        android:text="Change"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="153dp"
+        android:backgroundTint="#20701D"
+        android:onClick="yan6"
+        android:text="Successful"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
